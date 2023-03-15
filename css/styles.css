@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+form {
+    background-color: rgb(77, 77, 77);
+    max-width: 800px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.295);
+}
+
+form label {
+    color: white;
+}
+
+.enviar {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+form label, input {
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+
+form input[type='submit'] {
+    width: fit-content;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type='submit']:hover {
+    background-color: rgba(241, 241, 241, 0.8);
+}
+
+form label, input {
+    font-size: 20px;
+}
+
+form input[type='text'], input[type='number']{
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    background-color: rgb(241, 241, 241);
+}
+
+
+ul {
+    list-style: none;
+}
+
+section {
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-evenly;
+    max-width: 800px;
+    width: 80%;
+}
+
+section div {
+    text-align: center;
+}
+
+section div li{
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.aprovados {
+    border: 1px solid black;
+    padding: 10px;
+}
+.aprovados h1{
+    padding: 10px 0 10px 0;
+}
+.reprovados h1{
+    padding: 10px 0 10px 0;
+}
+
+.reprovados {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.aprovados .nota {
+    color: green;
+}
+
+.reprovados .nota {
+    color: red;
+}
+
+.limpar {
+    width: fit-content;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    cursor: pointer;
+}
+
+.limpar:hover {
+    background-color: rgba(77, 77, 77, 0.8);
+}
